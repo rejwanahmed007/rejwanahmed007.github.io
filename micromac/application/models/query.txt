@@ -1,0 +1,11 @@
+SELECT items.id, items.name item_name, models.name model_name, brand.name brand_name, items.entry_date FROM items,models,brand where items.brand_id=brand.id AND items.model_id=models.id ORDER BY items.entry_date DESC
+
+        $this->db->select('i.id,i.name item_name,m.name model_name,b.name brand_name,i.entry_date');
+	    $this->db->from('items i');
+	    $this->db->join("brand b","i.brand_id=b.id","left");
+	    $this->db->join("models m","i.model_id=m.id","left");
+	    $this->db->order_by("i.entry_date", "desc");
+	    $this->db->limit($rowperpage, $rowno);  
+	    $query = $this->db->get();
+	 
+	    return $query->result();
