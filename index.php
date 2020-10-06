@@ -89,16 +89,7 @@
         </div>
         <!-- Hide this text on small devices -->
         <div class="w3-col m6 w3-hide-small w3-padding-large">
-          <p>Welcome to my website. I am Rejwan Ahmed, specializing in full stack development. Well-versed in numerous programming languages including Python, HTML5, PHP, JavaScript, Java, C#, CSS3, MySQL etc. Strong background in project management and customer relations. I completed my BSc in Computer Science & Software Engineering from <a href="https://www.aiub.edu/" target="_blank">American International University-Bangladesh (AIUB)</a>. I like learning new things on my academic related field like programming languages, related tools. Currently I am enrolled as a full time employee (Junior Programmer) in <a href="https://www.mmtvbd.com/" target="_blank">Micromac Techno Valley Limited</a>. To see my full Resume/CV, please click on the image below.</p>
-          <div class="w3-row-padding w3-center">
-            <div class="w3-col m12">
-              <figure>
-                
-                <a href="my_cv.html" target="_blank"><img src="images/cv/cv1.jpg" style="width:100%" alt="My Curriculum Vitae"></a>
-                <caption>My Curriculum Vitae</caption>
-              </figure>
-            </div>
-          </div>
+          <p>Welcome to my website. I am Rejwan Ahmed, specializing in full stack development. Well-versed in numerous programming languages including Python, HTML5, PHP, JavaScript, Java, C#, CSS3, MySQL etc. Strong background in project management and customer relations. I completed my BSc in Computer Science & Software Engineering from <a href="https://www.aiub.edu/" target="_blank">American International University-Bangladesh (AIUB)</a>. I like learning new things on my academic related field like programming languages, related tools. Currently I am enrolled as a full time employee (Junior Programmer) in <a href="https://www.mmtvbd.com/" target="_blank">Micromac Techno Valley Limited</a>.</p>
         </div>
       </div>
       <!-- <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
